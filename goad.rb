@@ -2,16 +2,16 @@
 class Goad < Formula
   desc ""
   homepage ""
-  version "0.1.5"
+  version "0.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/hmschreck/goad/releases/download/0.1.5/goad_0.1.5_Darwin_x86_64.tar.gz"
-    sha256 "41851d2764db1c210c321cb9767e4afd4a20ce1599a622da048a6f533a42e6df"
+    url "https://github.com/hmschreck/goad/releases/download/0.2.0/goad_0.2.0_Darwin_x86_64.tar.gz"
+    sha256 "c4c79274e09c9ff8f5e61e3ca601ba0c64d124385dadd0693541a0bcc9b75130"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/hmschreck/goad/releases/download/0.1.5/goad_0.1.5_Linux_x86_64.tar.gz"
-      sha256 "8940d2be8156b82c8992d8dfafc4b248c25525c1947039010c5b6ff44c8fc251"
+      url "https://github.com/hmschreck/goad/releases/download/0.2.0/goad_0.2.0_Linux_x86_64.tar.gz"
+      sha256 "2fef65f051b3efc8c4357eea72aa287251267848314a9d21b11abcda9faf4551"
     end
   end
 
